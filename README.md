@@ -1,4 +1,4 @@
-# HTF23-Team-55
+# HTF23-Team-54
 
 ## GitHub submission guide
 
@@ -8,7 +8,7 @@ In this Readme, you will find a guide on how to fork this Repository, add files 
 <summary><h3>1. Login to your GitHub Account by heading over to <a href="https://github.com">github.com</a></h3></summary>
 <br>
 <ul>
-   <li>Open the <a href="https://github.com/cbitosc/HTF23-Team-55">current repo</a> in a new tab.</li>
+   <li>Open the <a href="https://github.com/cbitosc/HTF23-Team-54">current repo</a> in a new tab.</li>
    <li>Perform all operations in the newly opened tab, and follow the current tab for instructions.</li>
 </ul>
 </details>
@@ -20,7 +20,7 @@ In this Readme, you will find a guide on how to fork this Repository, add files 
  <li>In the newly opened tab, on the top-right corner, click on <b>Fork</b></li>
  <img src="/images/fork.png">
 
- <li>Enter the <b>Repository Name</b> as <b>HTF23-Team-55 (your team number)</b>.</li>
+ <li>Enter the <b>Repository Name</b> as <b>HTF23-Team-54 (your team number)</b>.</li>
  <li>Then click <b>Create Fork</b> leaving all other fields to their default value.</li>
  <img src="/images/create-fork.png">
  <li>After a few moments, you can view the repo.</li>
@@ -35,7 +35,7 @@ In this Readme, you will find a guide on how to fork this Repository, add files 
  <img src="/images/clone1.png">
  <li>Now open terminal on your local machine.</li>
  <li>Use the following command to clone your forked Repository:</li>
-<code> git clone https://github.com/your-username/HTF23-Team-55.git </code>
+<code> git clone https://github.com/your-username/HTF23-Team-54.git </code>
 <hr>
  <img src="/images/clone2.png">
 
