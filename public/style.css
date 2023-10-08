@@ -1,0 +1,274 @@
+.logo-design {
+  font-family: "Young Serif";
+  font-weight: bold;
+  border-style: solid;
+  border-color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding: 6px;
+}
+
+.food-munch-logo {
+  width: 80px;
+  height: 70px;
+}
+#navItem1 {
+  color: #323f4b;
+  font-family: "Geologica";
+}
+#navItem2 {
+  color: #323f4b;
+  font-family: "Geologica";
+}
+#navItem3 {
+  color: #323f4b;
+  font-family: "Geologica";
+}
+#navItem4 {
+  color: #323f4b;
+  font-family: "Geologica";
+}
+.banner-section-bg-container {
+  background-image: url("https://images.unsplash.com/photo-1602407294553-6ac9170b3ed0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+.banner-heading {
+  color: white;
+  font-family: "Dela Gothic One";
+  font-size: 60px;
+  font-weight: 300;
+}
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.custom-button {
+  text-decoration: none;
+
+  color: #ffffff;
+  font-family: "Geologica";
+  background-color: rgb(76, 76, 221);
+  width: 200px;
+  height: 75px;
+  border-width: 2px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.custom-outline-button {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+}
+
+.upload-bg-container {
+  text-align: left;
+  font-family: "Open Sans";
+
+  background-size: cover;
+  height: 100vh;
+}
+
+.upload-sub-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+  padding-bottom: 25px;
+}
+
+.upload-images {
+  height: 175px;
+  width: 225px;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.upload-images-bottom {
+  height: 175px;
+  width: 225px;
+  border-radius: 7px;
+  margin: 10px;
+  margin-left: 125px;
+}
+
+.img-container {
+  margin-top: 20px;
+}
+
+.upload-heading {
+  margin: 50px;
+}
+
+.upload-heading-2 {
+  text-align: left;
+  font-family: "Gabarito";
+  font-size: 80px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.custom-upload-button {
+  text-decoration: none;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Geologica";
+  background-color: rgb(93, 194, 203);
+  width: 200px;
+  height: 75px;
+  border-width: 2px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 50px;
+  border-style: none;
+}
+
+.navbar-spacing {
+  padding: 6px;
+  color: white;
+  font-family: "Geologica";
+}
+
+.article-section-heading {
+  font-family: "Dela Gothic One";
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  text-decoration: underline;
+}
+
+.harvard-image-size {
+  height: 120px;
+  width: 200px;
+  margin: 15px;
+}
+
+.article-card-title {
+  margin-top: 10px;
+  font-family: "Geologica";
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+.article-card-para {
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: gray;
+  margin-left: 25px;
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+.linkedin-image-size {
+  height: 80px;
+  width: 300px;
+  margin: 15px;
+  padding-right: 24px;
+  padding-top: 18px;
+}
+
+.indeed-image-size {
+  height: 90px;
+  width: 300px;
+  margin: 13px;
+  padding-right: 24px;
+  padding-bottom: 25px;
+}
+
+.forbes-image-size {
+  height: 200px;
+  width: 200px;
+}
+
+.article-item-card {
+  background-color: #ffffff;
+  margin: 18px;
+  border-radius: 10px;
+}
+
+.articles-section {
+  background-color: azure;
+}
+
+.why-choose-us-container {
+  background-color: #f5f7fa;
+}
+
+.why-choose-us-heading {
+  font-family: "Frank Ruhl Libre";
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.why-choose-us-para {
+  font-family: "Roboto";
+  margin: 150px;
+  margin-top: 40px;
+  font-size: 26px;
+  border-style: solid;
+  border-color: antiquewhite;
+  padding: 10px;
+}
+
+.icon-boxes {
+  border-style: solid;
+  border-color: orange;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 40px;
+  text-align: center;
+  height: 200px;
+  width: 250px;
+}
+
+.icon-box-logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.icon-box-para {
+  font-family: "Frank Ruhl Libre";
+  font-size: 23px;
+  font-weight: 800;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  height: 200px;
+  width: 500px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  box-shadow: 10px;
+}
+
+.card2 {
+  margin: 50px;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+  box-shadow: 15px;
+  font-family: "Roboto";
+}
