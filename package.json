@@ -1,0 +1,19 @@
+{
+  "name": "resume_evaluator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.1",
+    "firebase": "^10.4.0",
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^3.0.2"
+  }
+}
