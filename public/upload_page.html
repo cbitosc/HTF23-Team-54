@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="upload-bg-container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <h1 class="logo-design">Team X.</h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a
+                style="color: white"
+                class="nav-link active navbar-spacing"
+                id="navItem1"
+              >
+                Home
+                <span class="sr-only">(current)</span>
+              </a>
+              <a
+                style="color: white"
+                class="nav-link navbar-spacing"
+                href=""
+                id="navItem2"
+                >Resume Evaluator</a
+              >
+
+              <a
+                style="color: white"
+                class="nav-link navbar-spacing"
+                href="articles.html"
+                id="navItem4"
+                >Articles & Blogs</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="upload-sub-container d-flex flex-row justify-content-center">
+        <div class="col-6">
+          <input type="file" id="file-input" style="display: none" />
+          <h1 class="upload-heading-2">Upload your resume NOW.</h1>
+          <button class="shadow-lg custom-upload-button" id="btn1">
+            Select PDF file
+          </button>
+          <p id="file-name"></p>
+          <button class="shadow-lg custom-upload-button" id="btn">
+            Submit
+          </button>
+
+          <button
+            class="shadow-lg custom-upload-button"
+            style="text-decoration: none; color: white;"
+            id="btn2"
+          >
+            <a href="history.html" target="_self">History</a>
+          </button>
+        </div>
+        <div class="img-container d-flex flex-column col-6">
+          <div class="d-flex flex-row">
+            <img
+              src="https://resumekraft.com/wp-content/uploads/edd/2022/04/professional-resume-template-word-dark.jpg"
+              class="upload-images"
+            />
+            <img
+              src="https://unblast.com/wp-content/uploads/2018/05/5d535b32374595.567ebc6e49676.jpg"
+              class="upload-images"
+            />
+          </div>
+          <div>
+            <img
+              src="https://coreldrawdesign.com/resources/previews/preview-black-elegant-resume-cv-download-from-coreldrawdesign-1627389381.jpg"
+              class="upload-images-bottom"
+            />
+          </div>
+        </div>
+      </div>
+      <script src="script.js" defer type="module"></script>
+      <div id="result">
+        <h1 class="upload-heading text-center">Here's what we found out!</h1>
+      </div>
+      <div id="reco-div" style="display: none">
+        <h1>
+          We would like to suggest some good courses to make your resume good
+        </h1>
+      </div>
+    </div>
+  </body>
+</html>

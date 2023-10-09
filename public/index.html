@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h1 class="logo-design">Team X.</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a style="color:white" class="nav-link active navbar-spacing" id="navItem1" href="">
+              Home
+              <span class="sr-only">(current)</span>
+            </a>
+            <a style="color:white" class="nav-link navbar-spacing" href="upload_page.html" id="navItem2">Resume Evaluator</a>
+
+            <a style="color:white" class="nav-link navbar-spacing" href="articles.html" id="navItem4">Articles & Blogs</a>
+            <button id="auth-btn" class="btn btn-primary">Sign in</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+      <div class="text-center">
+        <h1 class="banner-heading mb-3">Get started with X.</h1>
+        <p class="banner-caption mb-4">Our free AI-powered resume checker scores your resume on key criteria recruiters and hiring managers look for. Get actionable steps to revamp your resume and land more interviews.</p>
+        <button  class="shadow-lg custom-upload-button"><a style="text-decoration: none; color: aliceblue;" href="upload_page.html">Upload NOW!</a></button>
+      </div>
+      <script type="module" src="./firebase_methods.js" defer></script>
+    </div>
+    
+    <div class="why-choose-us-container text-center">
+        <h1 class="why-choose-us-heading">
+            Why use Team X?
+        </h1>
+        <p class="why-choose-us-para">The hard truth is, according to the Wall Street Journal, approximately 75% of submitted resumes never make it into a hiring manager’s hands.
+            Most companies use screening software called applicant tracking systems (or ATS) to filter and rank applicants. While the goal is to weed out less-qualified job seekers, some highly qualified candidates don’t make it past the ATS. Since an ATS scans resumes for precise job titles, skills and experience, the modern resume lives and dies by its specific phrasing and being error-free.
+            
+            Team X helps you make it past the ATS by catching and suggesting fixes for more than 30 of the most common resume errors including formatting, word choice, measurable results and more.</p>
+        <h1 class="why-choose-us-heading">How we do it?</h1>
+        <p class="why-choose-us-para">The process of scouring through hundreds of websites and listing down various parameters for scoring and rating a resume can be tiresome so here is Team X processing and reading through your data by identifying the K-Nearest Neighbors through Machine Learning and AI-based recommendations. And classifying them into the best and most applicable jobs in the world! Team X reviews and solves them all for students who are lost, and for the workers who are in between jobs!</p>
+        
+        <h1 class="why-choose-us-heading">
+            What we check?
+        </h1>
+        <p class="why-choose-us-para mb-2">Whether you are updating your resume or building a new one, Team X will help.</p>
+        <div class="text-center">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column justify-content-center icon-boxes">
+                    <img src="https://www.livecareer.com/wp-content/uploads/2023/01/customization.svg" class="icon-box-logo text-center"/>
+                    <h1 class="icon-box-para">Customization</h1>
+                </div>
+                <div class="d-flex flex-column justify-content-center icon-boxes">
+                  <img src="https://www.livecareer.com/wp-content/uploads/2023/01/measurable-results.svg" class="icon-box-logo text-center"/>
+                  <h1 class="icon-box-para">Measurable Results</h1>
+                </div>                
+                <div class="d-flex flex-column justify-content-center icon-boxes">
+                    <img src="https://www.livecareer.com/wp-content/uploads/2023/01/summary-quality.svg" class="icon-box-logo"/>
+                    <h1 class="icon-box-para">Strong Summary</h1>
+                </div>
+            </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column justify-content-center icon-boxes">
+                    <img src="https://www.livecareer.com/wp-content/uploads/2023/01/clear-contact-info.svg" class="icon-box-logo"/>
+                    <h1 class="icon-box-para">Clear Contact Info</h1>
+                </div>
+                <div class="d-flex flex-column justify-content-center icon-boxes">
+                    <img src="https://www.livecareer.com/wp-content/uploads/2023/01/completeness.svg" class="icon-box-logo"/>
+                    <h1 class="icon-box-para">Completeness</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
